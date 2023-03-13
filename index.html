@@ -10,12 +10,17 @@
     <div class="title"> Let's play a game of Rock, Paper, Scissors! </div>
 <body>
     <section class="game">
-    <div class="title2">Choose wisely..</div>
-        <div class="player">Your Score</div>
-        <div class="computer">Computer's Score</div>
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
+        <div class="container">
+                <button class="rock"><img src= "images/rock.jpg"></button>
+                <button class="paper"><img src= "images/paper.jpg"></button>
+                <button class="scissor"><img src= "images/scissors.jpg"></button>
+        </div>
+        <div class="centeredReset">
+            <button id="resetButton">Reset Game</button>
+        </div>
+        <div class="resultsContainer">
+            <p class="results"></p>
+        </div>
     </section>
     <script src="rps.js"></script>
 </body>
